@@ -66,7 +66,7 @@ Created on Fri Nov 26 02:22:46 2021
 #     sonlarga qoldiqsiz bo'linishini tekshiruvchi funksiya'''
 #     for n in range(2,11):
 #         if son%n == 0:
-#             print(f"n{son} {n} ga qoldiqsiz bo'linadi")
+#             print(f"{son} {n} ga qoldiqsiz bo'linadi")
             
 # son = int(input("Istalgan butun son kiriting: "))
 # bolinish_alomatlari(son)
