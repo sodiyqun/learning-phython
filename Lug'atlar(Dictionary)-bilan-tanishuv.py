@@ -39,9 +39,9 @@ Created on Fri Nov 19 01:22:18 2021
 # print((pythondc.get(keydc, "Bungay so'z mavjud emas")).capitalize())
 
 
-# keydc = input("Kalit so'z kiriting: ").lower()
-# tarjima = pythondc.get(keydc)
-# if tarjima == None:
-#     print("Bunday so'z mavjud emas")
-# else:
-#     print(f'{keydc.title()} so\'zi "{tarjima}" deb tarjima qilinadi')
+keydc = input("Kalit so'z kiriting: ").lower()
+tarjima = pythondc.get(keydc)
+if tarjima == None:
+    print("Bunday so'z mavjud emas")
+else:
+    print(f'{keydc.title()} so\'zi "{tarjima}" deb tarjima qilinadi')
