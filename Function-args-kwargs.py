@@ -14,9 +14,9 @@ Created on Thu Dec  2 20:06:50 2021
 # print(kopaytir(4,5,6))
 
 
-def tinfo(ism, familiya, **infos):
-    infos['ismi'] = ism
-    infos['familiyasi'] = familiya
-    return infos
+# def tinfo(ism, familiya, **infos):
+#     infos['ismi'] = ism
+#     infos['familiyasi'] = familiya
+#     return infos
 
-talaba = tinfo('olim', 'olimov', tyili = 1995, fakulteti ='IT', yonalishi = 'AT')
+# talaba = tinfo('olim', 'olimov', tyili = 1995, fakulteti ='IT', yonalishi = 'AT')
