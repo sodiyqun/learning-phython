@@ -7,7 +7,7 @@ Created on Mon Dec 27 20:50:48 2021
 
 import pickle
 
-with open('logs/pi_million_digits.txt') as file:
+with open('file/pi_million_digits.txt') as file:
     pi = file.read()
     
 pi = pi.rstrip()
@@ -22,7 +22,7 @@ else:
 
 pi = float(pi)
 
-with open('logs/pi_float.dat', 'wb') as file:
+with open('file/pi_float.dat', 'wb') as file:
     pickle.dump(pi, file)
 
 
@@ -36,5 +36,5 @@ with open('logs/pi_float.dat', 'wb') as file:
 while True:
     movies = input("Yaxshi koʻrgan filmlaringizni kiriting (to'xtash uchun Enter bosing): ")
     if not movies: break
-    with open('logs/movies.txt', 'a') as file:
+    with open('file/movies.txt', 'a') as file:
         file.write(movies+'\n')
